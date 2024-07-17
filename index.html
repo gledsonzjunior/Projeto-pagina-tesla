@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Página Tesla</title>
+  </head>
+  <body>
+    <img src="./assets/logo.png" alt="logo-tesla" class="logo" />
+    <ul class="lista">
+      <!-- ITEM 1 -->
+      <li class="item">
+        <video src="./assets/model-y.mp4" autoplay loop muted></video>
+
+        <div class="info-carro">
+          <h1 class="titulo-tesla">Tesla Model Y</h1>
+
+          <p class="paragrafo-mensagem">Parcelas a partir de $399,00/mo</p>
+        </div>
+
+        <div class="rodape">
+          <button onclick="aparecerFormulario()" class="button-compre">Compre agora</button>
+
+          <button class="button-test">Faça um Test-Drive</button>
+
+          <p class="paragrafo-rodape">
+            Não garantimos seu veículo imediatamente. Consulte disponibilidade*
+          </p>
+        </div>
+      </li>
+
+      <!-- ITEM 2 -->
+      <li class="item">
+        <img src="./assets/model-3.png" class="img-tesla" alt="imagem model 3"></img>
+
+        <div class="info-carro">
+          <h1 class="titulo-tesla">Tesla Model 3</h1>
+
+          <p class="paragrafo-mensagem">Compre agora seu Tesla</p>
+        </div>
+
+      </li>
+
+      <!-- ITEM 3 -->
+      <li class="item">
+        <img src="./assets/model-x.png" class="img-tesla" alt="imagem tesla model x"></img>
+
+        <div class="info-carro, model-x">
+          <h1 class="titulo-tesla">Tesla Model X</h1>
+
+          <p class="paragrafo-mensagem">Parcelas a partir de $399,00/mo</p>
+        </div>
+
+      </li>
+    </ul>
+
+    <div class="formulario">
+      <button onclick="desaparecerFormulario()" class="button-fechar">fechar</button>
+      <script type="text/javascript" src="https://form.jotform.com/jsform/241983355051053"></script>
+    </div>
+  </body>
+</html>
+<script src="./scripts.js"></script>
