@@ -74,8 +74,12 @@ h1 {
 .rodape {
     text-align: center;
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    bottom: 20px;
 }
-
 button {
     border: none;
     border-radius: 10px;
@@ -83,6 +87,9 @@ button {
     font-weight: 600;
     cursor: pointer;
     width: 350px;
+    
+    
+
     
 }
 
